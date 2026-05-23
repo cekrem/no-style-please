@@ -1,7 +1,8 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
-  img {
+  img,
+  a {
     filter: invert(1);
 
     &.ioda {
@@ -42,7 +43,6 @@ html {
 
 a {
   color: #5cee9a;
-  filter: none !important;
 }
 
 body {
